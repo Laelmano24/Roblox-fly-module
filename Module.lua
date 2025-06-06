@@ -6,12 +6,15 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 getgenv().flyModeSpeed = 1
 getgenv().PressKeyToFly = Enum.KeyCode.R
 
-local function flymode(speeds)
-	if getgenv().isFlyActive == nil then
-		getgenv().isFlyActive = false
-	end
+local function flymode(speeds, value)
 
-	getgenv().isFlyActive = not getgenv().isFlyActive
+	if value == nil then
+		if getgenv().isFlyActive == nil then getgenv().isFlyActive = false end
+		getgenv().isFlyActive = not getgenv().isFlyActive
+	else
+		getgenv().isFlyActive = value
+	end
+	
 	getgenv().flyModeSpeed = speeds
 
 	if not getgenv().isFlyActive then
