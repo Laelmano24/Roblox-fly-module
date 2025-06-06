@@ -12,12 +12,12 @@ Special thanks to **MaksBloxX**, from whom I obtained this version. He may not b
 ### 🧩 Import the Module
 
 ```lua
-local flyFunction = loadstring(game:HttpGet("aindavoucolocar"))()
+local flyFunction = loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Roblox-fly-module/refs/heads/main/Module.lua"))()
 ```
 
 ### ✈️ Toggle Fly Mode
 ```lua
-local flyFunction = loadstring(game:HttpGet("aindavoucolocar"))()
+local flyFunction = loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Roblox-fly-module/refs/heads/main/Module.lua"))()
 local speed = 1
 flyFunction(speed) -- Call the function to toggle fly mode on or off
 ```
