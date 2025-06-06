@@ -15,14 +15,14 @@ Special thanks to **MaksBloxX**, from whom I obtained this version. He may not b
 local flyFunction = loadstring(game:HttpGet("aindavoucolocar"))()
 ```
 
-✈️ Toggle Fly Mode
+### ✈️ Toggle Fly Mode
 ```lua
 local flyFunction = loadstring(game:HttpGet("aindavoucolocar"))()
 local speed = 1
 flyFunction(speed) -- Call the function to toggle fly mode on or off
 ```
 
-⚙️ Configurable Settings
+### ⚙️ Configurable Settings
 ```lua
 getgenv().flyModeSpeed = 1 -- Fly speed (modifiable, but usually unnecessary)
 getgenv().PressKeyToFly = Enum.KeyCode.R -- Change the key used to toggle fly mode
